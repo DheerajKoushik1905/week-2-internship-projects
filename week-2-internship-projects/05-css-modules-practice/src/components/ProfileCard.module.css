@@ -1,0 +1,7 @@
+.card { display:grid; grid-template-columns:auto 1fr; gap:20px; padding:26px; background:white; border:1px solid #e1e7ef; border-radius:18px; box-shadow:0 14px 35px rgba(30,45,80,.08); }
+.avatar { width:64px; height:64px; border-radius:18px; background:#334dcc; color:white; display:grid; place-items:center; font-weight:800; font-size:1.25rem; }
+.label { margin:0; color:#5368d5; text-transform:uppercase; letter-spacing:.08em; font-size:.75rem; font-weight:800; }
+.name { margin:6px 0 4px; }
+.role { margin:0 0 14px; color:#687386; }
+.skills { display:flex; flex-wrap:wrap; gap:8px; }
+.skills span { background:#eef1ff; color:#354aa7; border-radius:999px; padding:6px 10px; font-size:.82rem; font-weight:700; }
